@@ -1,0 +1,13 @@
+// config scss
+@import "config/fonts";
+@import "config/reset";
+@import "config/flex-mixin";
+@import "config/variable";
+
+// utilities
+@import "utilities/utilities";
+
+
+// pages
+@import "pages/home";
+@import "pages/project";

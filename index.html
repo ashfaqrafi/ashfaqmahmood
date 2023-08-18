@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashfaq Mahmood | Front End Developer | UX Designer</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- font exo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="assets/bootstrap-css/bootstrap.min.css" />
+
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <body>
+    <!-- header section starts -->
+    <section class="header">
+      <!-- header nav area starts -->
+      <nav class="navbar navbar-expand-md py-0 header__nav">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand header__nav-title d-none d-md-block"
+            href="./index.html"
+            >Ashfaq</a
+          >
+
+          <!-- offcanvs start -->
+          <button
+            class="btn navbar-toggler header__toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <span class="navbar-toggler-icon header__toggler-icon"></span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start d-block d-md-none header__offcanvas"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header align-items-start">
+              <!-- <h5 class="offcanvas-title" >Offcanvas</h5> -->
+              <div class="offcanvas-title mt-5" id="offcanvasExampleLabel">
+                <a class="header__offcanvas-title" href="./index.html"
+                  >Ashfaq</a
+                >
+              </div>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="header__offcanvas-content list-unstyled">
+                <li class="nav-item mt-2">
+                  <a
+                    class="header__offcanvas-content-item"
+                    href="./index.html#about-me-section"
+                    >About Me</a
+                  >
+                </li>
+                <li class="nav-item mt-2">
+                  <a
+                    class="header__offcanvas-content-item"
+                    href="./index.html#our-skill-section"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-item mt-2">
+                  <a
+                    class="header__offcanvas-content-item"
+                    href="pages/blog.html"
+                    target="_blank"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item mt-2">
+                  <a
+                    class="header__offcanvas-content-item"
+                    href="pages/more.html"
+                    target="_blank"
+                    >More</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="header__offcanvas-button">
+              <a
+                class="header__offcanvas-button-item"
+                href="mailto:ashfaq.bd92@gmail.com"
+                target="_blank"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <!-- offcanvs end -->
+
+          <a
+            class="navbar-brand header__nav-title d-block d-md-none"
+            href="./index.html"
+            >Ashfaq</a
+          >
+          <!-- header nav area starts for dextop-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 me-3 mb-md-0 header__nav-content"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link header__nav-content-item"
+                  aria-current="page"
+                  href="#about-me-section"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header__nav-content-item"
+                  aria-current="page"
+                  href="#our-skill-section"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header__nav-content-item"
+                  aria-current="page"
+                  href="pages/blog.html"
+                  target="_blank"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header__nav-content-item"
+                  aria-current="page"
+                  href="pages/more.html"
+                  target="_blank"
+                  >More</a
+                >
+              </li>
+            </ul>
+            <!-- header nav area end for dextop-->
+          </div>
+          <form class="d-flex" role="search">
+            <a
+              href="mailto:ashfaq.bd92@gmail.com"
+              class="header__nav-contact"
+              target="_blank"
+              >Contact</a
+            >
+          </form>
+        </div>
+      </nav>
+      <!-- header nav area end-->
+
+      <!-- intro area start -->
+      <div class="header__intro">
+        <!-- <div class="header__intro-gretings">Hi, I'm</div> -->
+        <div class="header__intro-title">Front-End Developer & UX Designer</div>
+        <div class="header__intro-name">Ashfaq Mahmood</div>
+
+        <div class="header__intro-button">
+          <a
+            href="mailto:ashfaq.bd92@gmail.com"
+            class="header__intro-button-contact"
+            target="_blank"
+            >Contact me</a
+          >
+          <a
+            class="header__intro-button-resume"
+            href="assets/My-resume/Ashfaq_Mahmood_Resume.pdf"
+            target="_blank"
+            download
+            >My CV</a
+          >
+        </div>
+      </div>
+      <!-- intro area start -->
+    </section>
+    <!-- header section end -->
+
+    <!-- about me section start -->
+    <section id="about-me-section" class="skills">
+      <div class="skills__title">
+        <div class="skills__title-name">
+          <span>About me</span>
+        </div>
+        <div class="skills__title-text">
+          • 7+ years of industry experience as Front End Engineer & UX
+          Designer.<br />
+          • Expertise in Front End languages and tools: HTML5, CSS3, SASS,
+          Bootstrap, TailwindCSS, JavaScript, ReactJS, Redux, Redux Toolkit,
+          NextJS, TypeScript.<br />
+          • Expertise in UX Design Methodologies, User Research, Sketch,
+          Wireframe, Visual Design, Accessibility, Qualitative and Quantitative
+          testing, Human-Centered Design, Design Thinking.<br />
+          • Experience in Product Development, Product Design, Team Management,
+          Project Management.<br />
+          • Preferred Design tools: Figma, Adobe Xd, Invision, Miro, Zeplin,
+          Adobe Illustrator.<br />
+          • 30+ local and overseas projects completed.
+        </div>
+      </div>
+    </section>
+    <!-- about me section end -->
+
+    <!-- skills sectiobn starts -->
+    <section id="our-skill-section" class="skills">
+      <div class="skills__title">
+        <div class="skills__title-name">
+          <span>My skills</span>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">HTML</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">CSS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Sass</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">TailwindCSS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">JavaScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">React</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">NextJS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Redux</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Bootstrap</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">TypeScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Redux Toolkit</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Jest</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">React Testing Library</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Git</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Graphql</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Grunt</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Gulp</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Bower</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Webpack</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Storybook</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">jquery</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Figma</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Miro</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Invision</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Adobe Xd</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Adobe Illustrator</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Zeplin</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Wordpress</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Docker</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 skills__container">
+            <div class="skills__wrapper">
+              <div class="skills__wrapper-content">
+                <div class="skills__wrapper-name">Kubernetes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills sectiobn end -->
+
+    <!-- footer section start -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer__details">
+          <div class="footer__details-title">Let's <span>connect</span></div>
+          <div class="">
+            <div class="row footer__details-socialConnection">
+              <div class="col-12 col-sm-6 col-md-4 mt-3">
+                <div class="card h-100 footer__details-socialConnection-card">
+                  <div
+                    class="card-body row footer__details-socialConnection-card-body"
+                  >
+                    <div
+                      class="footer__details-socialConnection-card-body-title col-9"
+                    >
+                      <div
+                        class="footer__details-socialConnection-card-body-title-name"
+                      >
+                        Linkdin
+                      </div>
+                      <div
+                        class="footer__details-socialConnection-card-body-title-brief"
+                      >
+                        Professional network profile
+                      </div>
+                    </div>
+                    <div
+                      class="footer__details-socialConnection-card-body-icon col-3"
+                    >
+                      <a
+                        class="footer__details-socialConnection-card-body-icon-image"
+                        href="https://www.linkedin.com/in/ashfaqrafi/"
+                        target="_blank"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="assets/image/linkedin.png"
+                          alt="Linkdin Profile"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 mt-3">
+                <div class="card h-100 footer__details-socialConnection-card">
+                  <div
+                    class="card-body row footer__details-socialConnection-card-body"
+                  >
+                    <div
+                      class="footer__details-socialConnection-card-body-title col-9"
+                    >
+                      <div
+                        class="footer__details-socialConnection-card-body-title-name"
+                      >
+                        Github
+                      </div>
+                      <div
+                        class="footer__details-socialConnection-card-body-title-brief"
+                      >
+                        Code sharing network
+                      </div>
+                    </div>
+                    <div
+                      class="footer__details-socialConnection-card-body-icon col-3"
+                    >
+                      <a
+                        class="footer__details-socialConnection-card-body-icon-image"
+                        href="https://github.com/ashfaqrafi"
+                        target="_blank"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="assets/image/github.png"
+                          alt="Github"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 mt-3">
+                <div class="card h-100 footer__details-socialConnection-card">
+                  <div
+                    class="card-body row footer__details-socialConnection-card-body"
+                  >
+                    <div
+                      class="footer__details-socialConnection-card-body-title col-9"
+                    >
+                      <div
+                        class="footer__details-socialConnection-card-body-title-name"
+                      >
+                        WhatsApp
+                      </div>
+                      <div
+                        class="footer__details-socialConnection-card-body-title-brief"
+                      >
+                        Social media network
+                      </div>
+                    </div>
+                    <div
+                      class="footer__details-socialConnection-card-body-icon col-3"
+                    >
+                      <a
+                        class="footer__details-socialConnection-card-body-icon-image"
+                        href="tel:+8801930519825"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="assets/image/whatsapp.png"
+                          alt="WhatsApp"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer nav area -->
+          <div class="footer__details-nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="footer__title">
+                    <a href="./index.html">Ashfaq</a>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-8">
+                  <div class="footer__details-nav-content">
+                    <ul class="navbar-nav footer__details-nav-content-brief">
+                      <li
+                        class="nav-item footer__details-nav-content-brief-item"
+                      >
+                        <a
+                          class="nav-link footer__details-nav-content-brief-item-link"
+                          href="#about-me-section"
+                          >About me</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item footer__details-nav-content-brief-item"
+                      >
+                        <a
+                          class="nav-link footer__details-nav-content-brief-item-link"
+                          href="#our-skill-section"
+                          >Skills</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item footer__details-nav-content-brief-item"
+                      >
+                        <a
+                          class="nav-link footer__details-nav-content-brief-item-link"
+                          href="pages/blog.html"
+                          target="_blank"
+                          >Blog</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item footer__details-nav-content-brief-item"
+                      >
+                        <a
+                          class="nav-link footer__details-nav-content-brief-item-link"
+                          href="pages/more.html"
+                          target="_blank"
+                          >More</a
+                        >
+                      </li>
+                      <li
+                        class="nav-item footer__details-nav-content-brief-item"
+                      >
+                        <a
+                          class="nav-link footer__details-nav-content-brief-item-link"
+                          href="mailto:ashfaq.bd92@gmail.com"
+                          target="_blank"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__details-copyright">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              all rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section start -->
+
+    <!-- bootstrap js -->
+    <script src="assets/bootstrap-js/bootstrap.bundle.min.js"></script>
+
+    <!-- image onscolling js -->
+    <script src="js/viewportimageshow.js"></script>
+    <!-- jquery js -->
+    <script src="assets/jquery js/jquery-3.6.0.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+      integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- skills scrolling js -->
+    <script src="js/on-viewport-circel.js"></script>
+  </body>
+</html>

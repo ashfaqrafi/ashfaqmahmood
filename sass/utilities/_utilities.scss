@@ -1,0 +1,46 @@
+@mixin primary-button {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  @include flex-center;
+  padding: 8px 16px;
+  height: 40px;
+
+  background: $primary-heading-color !important;
+  color: $button-text-color !important;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  @media (max-width: 591.98px) {
+    padding: 4px 12px;
+    height: 35px;
+  }
+  &:hover {
+    background: $secondary-heading-color !important;
+    box-shadow: 0 2px 3px 0px rgb(0 0 0 / 22%), 0 4px 8px 3px rgb(0 0 0 / 35%);
+  }
+}
+@mixin secondary-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 46px;
+  border-radius: 4px;
+  @include flex-center;
+  background: $secondary-heading-color;
+  color: $button-text-color !important;
+  transition: all 0.5s ease-in-out;
+  @media (max-width: 591.98px) {
+    padding: 5px 16px;
+    height: 40px;
+    display: inline-flex;
+  }
+  &:hover {
+    background: #4d41db !important;
+    box-shadow: 0 2px 3px 0px rgb(0 0 0 / 22%), 0 4px 8px 3px rgb(0 0 0 / 35%);
+  }
+}
