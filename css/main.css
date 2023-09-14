@@ -1274,7 +1274,7 @@ hr {
 }
 
 .skills__front-end {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .skills__front-end-header {
@@ -1285,6 +1285,44 @@ hr {
   position: relative;
   border-bottom: 1px solid #0f0d1c;
   padding-bottom: 8px;
+}
+
+.experience {
+	margin-top: 50px;
+}
+
+.experience__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience__header-company {
+  display: flex;
+  align-items: center;
+}
+
+.experience__header-designation {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience__header-link {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #646371;
+}
+
+.experience__header-date {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.experience__header-brief {
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
