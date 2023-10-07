@@ -93,7 +93,11 @@
   vertical-align: baseline;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-1 {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-1 {
   margin: 6px 6px 20px;
   display: inline-block;
   position: relative;
@@ -101,7 +105,12 @@
   line-height: 1.2;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-1 strong {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-1
+  strong {
   position: absolute;
   top: 55px;
   left: 0px;
@@ -111,7 +120,11 @@
   font-size: 40px;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-2 {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-2 {
   margin: 6px 6px 20px;
   display: inline-block;
   position: relative;
@@ -119,7 +132,12 @@
   line-height: 1.2;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-2 strong {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-2
+  strong {
   position: absolute;
   top: 55px;
   left: 0px;
@@ -129,7 +147,11 @@
   font-size: 40px;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-3 {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-3 {
   margin: 6px 6px 20px;
   display: inline-block;
   position: relative;
@@ -137,7 +159,12 @@
   line-height: 1.2;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-3 strong {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-3
+  strong {
   position: absolute;
   top: 55px;
   left: 0px;
@@ -147,7 +174,11 @@
   font-size: 40px;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-4 {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-4 {
   margin: 6px 6px 20px;
   display: inline-block;
   position: relative;
@@ -155,7 +186,12 @@
   line-height: 1.2;
 }
 
-.our-skill .single-skill .our-skill-sec .single-skill-content .single-skill-img-4 strong {
+.our-skill
+  .single-skill
+  .our-skill-sec
+  .single-skill-content
+  .single-skill-img-4
+  strong {
   position: absolute;
   top: 55px;
   left: 0px;
@@ -172,4 +208,4 @@
   display: block;
   margin-top: 12px;
   text-align: center;
-}/*# sourceMappingURL=draft.css.map */
+} /*# sourceMappingURL=draft.css.map */
